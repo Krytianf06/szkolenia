@@ -13,20 +13,30 @@
     Hejka
 
     <script type="text/javascript">
-        let cost;
-        const subscription = "premium";
 
-        if (subscription === "free") {
-            cost = 0;
-        } else if (subscription === "pro") {
-            cost = 100;
-        } else if (subscription === "premium") {
-            cost = 500;
-        } else {
-            console.log("Invalid subscription type");
-        }
 
-        console.log(cost); // 500
+      const apartment = {
+        imgUrl: "https://via.placeholder.com/640x480",
+        descr: "Spacious apartment in the city center",
+        rating: 4.7,
+        price: 5000,
+        tags: ["premium", "promoted", "top", "trusted"],
+        owner: {
+          name: "Henry Sibola",
+          phone: "982-126-1588",
+          email: "henry.carter@aptmail.com",
+        },
+      };
+      
+      
+      
+      //apartment.location.city = "Kingston";
+      //apartment.location.country = "Jamaica";
+      apartment.rooms = 3;
+      apartment.area = 60;
+
+
+
     </script>
 </body>
 
