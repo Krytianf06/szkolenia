@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    Hejka
+
+
+    <script type="text/javascript">
+
+        const students = ["Vika", "Andrey", "Oleg", "Julia", "Boris", "Katya"];
+
+        const inAlphabetOrder = [...students].sort((a, b) => a.localeCompare(b));
+        console.log(inAlphabetOrder); // ['Andrey', 'Boris', 'Vika', 'Katya', 'Oleg', 'Julia']
+
+        const inReversedOrder = [...students].sort((a, b) => b.localeCompare(a));
+        console.log(inReversedOrder); // ['Julia', 'Oleg', 'Katya', 'Vika', 'Boris', 'Andrey']
+
+    </script>
+
+
+</body>
+
+</html>
